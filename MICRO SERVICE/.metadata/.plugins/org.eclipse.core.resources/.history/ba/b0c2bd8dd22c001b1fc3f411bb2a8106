@@ -1,0 +1,13 @@
+package com.shradha.eureka;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringCloudFeignEurekaServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringCloudFeignEurekaServerApplication.class, args);
+	}
+
+}

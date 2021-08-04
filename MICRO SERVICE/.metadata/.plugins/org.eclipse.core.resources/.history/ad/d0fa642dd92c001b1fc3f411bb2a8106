@@ -1,0 +1,5 @@
+package com.shradha.course.rest;
+
+public class CourseController {
+
+}

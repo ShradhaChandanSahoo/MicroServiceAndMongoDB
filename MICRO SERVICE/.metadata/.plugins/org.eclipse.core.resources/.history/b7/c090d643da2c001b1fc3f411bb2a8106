@@ -1,0 +1,5 @@
+package com.shradha.student.consumer;
+
+public interface CourseRestCosumer {
+
+}

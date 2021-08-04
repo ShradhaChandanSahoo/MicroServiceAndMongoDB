@@ -1,0 +1,14 @@
+package com.shradha.student.consumer;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import com.shradha.course.model.Course;
+
+@FeignClient(name = "COURSE-SERVICE")
+public interface CourseRestCosumer {
+
+	@PostMapping("/save")
+	public ResponseEntity<String> saveCourse(Course course);
+}

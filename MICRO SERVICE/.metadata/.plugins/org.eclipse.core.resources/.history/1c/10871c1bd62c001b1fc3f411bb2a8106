@@ -1,0 +1,5 @@
+package com.shradha.course.model;
+
+public class Course {
+
+}
